@@ -14,7 +14,7 @@ public:
         double res = 1;
         while (s > 0) {
             if (s % 2 == 1) {
-                res = res * x;
+                res = res * x;  
             }
             x = x * x;
             s = s/2;
