@@ -17,7 +17,7 @@ public:
     vector<int> JobScheduling(Job arr[], int n) {
         sort(arr, arr + n, comparison);
         int maxi = arr[0].dead;
-
+        
         for(int i = 1; i < n; i++) {
             maxi = max(maxi, arr[i].dead);
         }
